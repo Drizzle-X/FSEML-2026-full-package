@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "description": "Five-run configuration for manuscript Tables I and II.",
+  "seeds": [9, 19, 29, 39, 49],
+  "seed_policy": "Seed 9 is retained from the original experiment. Seeds 19 and 29 follow existing repository protocols; 39 and 49 extend the same +10 sequence. Every method uses identical splits for a given seed.",
+  "shared_training": {
+    "meta_updates": 20000,
+    "meta_learning_rate": 0.0005,
+    "inner_learning_rate": 0.1,
+    "inner_steps": 10,
+    "weight_decay": 0.1,
+    "reconstruction_weight": 0.1,
+    "fisher_reconstruction_weight": 0.1,
+    "sparsity_target": 0.05,
+    "sparsity_weight": 0.005,
+    "fda_weight": 0.1,
+    "encoder_channels": 32,
+    "latent_dim": 128,
+    "adapter_dim": 256
+  },
+  "replay": {
+    "mode": "fse",
+    "content": "decoder",
+    "buffer_size": 1000,
+    "gap": 960,
+    "rate": 0.05,
+    "top_p": 32,
+    "partitions": 10
+  },
+  "cifar100": {
+    "classes_per_task": [5, 10, 20],
+    "meta_train_fraction": 0.6,
+    "query_scope": "global",
+    "support_sampling": "balanced",
+    "evaluation": {
+      "mode": "legacy-cumulative",
+      "finetune_learning_rate": 0.0002,
+      "finetune_epochs": 5,
+      "finetune_batch_size": 16,
+      "finetune_scope": "cpn",
+      "loss_class_scope": "seen",
+      "prediction_class_scope": "task"
+    }
+  },
+  "omniglot": {
+    "meta_train_classes": 963,
+    "meta_test_classes": 660,
+    "support_samples_per_class": 15,
+    "query_samples_per_class": 5,
+    "evaluation_runs_per_checkpoint": 1,
+    "classes_per_task": 1,
+    "selection_tasks": 50,
+    "learning_rate_candidates": [0.001, 0.0005, 0.0002, 0.0001],
+    "finetune_epochs": 5,
+    "adaptation_scope": "output-only",
+    "prediction_class_scope": "seen"
+  }
+}

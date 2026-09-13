@@ -1,0 +1,30 @@
+nohup: ignoring input
+CIFAR100 found locally: /home/drizzle/FSEML-rewrite-2026/data/cifar100
+CIFAR100 found locally: /home/drizzle/FSEML-rewrite-2026/data/cifar100
+CIFAR100 found locally: /home/drizzle/FSEML-rewrite-2026/data/cifar100
+Starting legacy-cumulative evaluation on cuda:0: 4 meta-test tasks
+stage 1/4 finetune epoch 1/5 complete
+stage 1/4 finetune epoch 2/5 complete
+stage 1/4 finetune epoch 3/5 complete
+stage 1/4 finetune epoch 4/5 complete
+stage 1/4 finetune epoch 5/5 complete
+{"ACC": 0.594, "FM": 0.0, "LA": 0.594, "finetune_order": "dataset", "learned_task_index": 1, "seen_classes": [4, 35, 50, 53, 58, 72, 90, 91, 94, 98], "task_classes": [35, 53, 4, 91, 50, 94, 72, 98, 90, 58], "task_id": 6}
+stage 2/4 finetune epoch 1/5 complete
+stage 2/4 finetune epoch 2/5 complete
+stage 2/4 finetune epoch 3/5 complete
+stage 2/4 finetune epoch 4/5 complete
+stage 2/4 finetune epoch 5/5 complete
+{"ACC": 0.481, "FM": 0.14199999999999996, "LA": 0.552, "finetune_order": "dataset", "learned_task_index": 2, "seen_classes": [4, 9, 11, 13, 19, 35, 37, 49, 50, 53, 58, 63, 72, 79, 81, 87, 90, 91, 94, 98], "task_classes": [87, 13, 63, 49, 79, 9, 19, 37, 11, 81], "task_id": 7}
+stage 3/4 finetune epoch 1/5 complete
+stage 3/4 finetune epoch 2/5 complete
+stage 3/4 finetune epoch 3/5 complete
+stage 3/4 finetune epoch 4/5 complete
+stage 3/4 finetune epoch 5/5 complete
+{"ACC": 0.4676666666666667, "FM": 0.13499999999999998, "LA": 0.5576666666666666, "finetune_order": "dataset", "learned_task_index": 3, "seen_classes": [0, 1, 4, 9, 11, 12, 13, 18, 19, 35, 37, 49, 50, 53, 58, 60, 62, 63, 72, 74, 79, 81, 85, 87, 90, 91, 94, 97, 98, 99], "task_classes": [1, 85, 18, 12, 62, 97, 74, 99, 60, 0], "task_id": 8}
+stage 4/4 finetune epoch 1/5 complete
+stage 4/4 finetune epoch 2/5 complete
+stage 4/4 finetune epoch 3/5 complete
+stage 4/4 finetune epoch 4/5 complete
+stage 4/4 finetune epoch 5/5 complete
+{"ACC": 0.42100000000000004, "FM": 0.11766666666666664, "LA": 0.50925, "finetune_order": "dataset", "learned_task_index": 4, "seen_classes": [0, 1, 4, 9, 11, 12, 13, 18, 19, 22, 33, 35, 37, 40, 49, 50, 52, 53, 54, 56, 58, 59, 60, 62, 63, 65, 72, 74, 79, 81, 85, 87, 90, 91, 92, 94, 96, 97, 98, 99], "task_classes": [33, 40, 59, 52, 96, 65, 22, 56, 54, 92], "task_id": 9}
+{"matrix": "/home/drizzle/FSEML-rewrite-2026/ANML-master_20260804/cifar100_main_results/cifar100_10_fseml_er_2000_final_lr0002_seed9_R_matrix.csv", "metrics": "/home/drizzle/FSEML-rewrite-2026/ANML-master_20260804/cifar100_main_results/cifar100_10_fseml_er_2000_final_lr0002_seed9_metrics.json"}

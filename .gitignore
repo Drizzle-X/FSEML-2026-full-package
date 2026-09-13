@@ -1,0 +1,96 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local Python environments and packaging output
+.venv/
+venv/
+env/
+.conda/
+build/
+dist/
+*.egg-info/
+
+# Editors and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Raw datasets and downloaded/generated features
+/data/
+/datasets_raw/
+/omniglot-py/
+/core50_128x128/
+/clinc150_features/
+
+# Model checkpoints and serialized training state
+*.pt
+*.pth
+*.net
+*.ckpt
+*.safetensors
+*.onnx
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Runtime logs, process state, and experiment output
+*.pid
+*.log
+*.csv
+tensorboard/
+runs/
+wandb/
+lightning_logs/
+paper_runs/
+server_results*/
+core50_results/
+core50_smoke_results/
+core50_nc_task_aware_results/
+core50_heldout_fseml/
+core50_heldout_fseml_er/
+core50_heldout_smoke/
+clinc150_results/
+clinc150_smoke_results/
+clinc150_real_smoke_results/
+clinc150_postfix_smoke_results/
+clinc150_heldout_fseml*/
+clinc150_heldout_er_smoke/
+reconstruction_fidelity_results*/
+reconstruction_fidelity_short_test/
+reconstruction_fidelity_analysis_*/
+replay_visualizations/
+20260505CSV/
+20260507CSV/
+20260509CSV/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Nested repositories and large upstream CORe50 metadata
+vendor/oos-eval/.git/
+vendor/core50_official/*.pkl
+vendor/core50_official/*.zip
+
+# Curated audit evidence is intentionally versioned
+!artifacts/**/*.log
+!artifacts/**/*.csv

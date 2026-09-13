@@ -1,0 +1,73 @@
+nohup: ignoring input
+experiment  : INFO     [32m[32mRun code dir = ANML-master_20260509[0m[0m
+experiment  : INFO     [32m[32mRun cwd = /home/drizzle/FSEML-rewrite-2026/ANML-master_20260509[0m[0m
+experiment  : INFO     [32m[32mCommand args = python evaluate_fm_classification.py --rln 0 --model ../PreNet/decoder_necessity_wo_decoder_seed9.net --name eval_fm_decoder_necessity_wo_decoder_seed9_small --runs 3 --epoch 5 --FSEML --fseml-eval-mode full-cpn --lr-list 0.0005 --restrict-finetune-to-seen-classes --schedule 10 50 75 100 --num-workers 4[0m[0m
+{'epoch': 5, 'seed': 222, 'schedule': [10, 50, 75, 100], 'memory': 0, 'model': '../PreNet/decoder_necessity_wo_decoder_seed9.net', 'scratch': False, 'dataset': 'omniglot', 'dataset_path': None, 'num_workers': 4, 'lr_list': [0.0005], 'name': 'eval_fm_decoder_necessity_wo_decoder_seed9_small', 'commit': False, 'no_freeze': False, 'reset': False, 'test': False, 'iid': False, 'rln': 0, 'runs': 3, 'AE': False, 'FSEML': True, 'fseml_eval_mode': 'full-cpn', 'restrict_finetune_to_seen_classes': True, 'Neuromodulation': False}
+experiment  : INFO     [32m[32mBEST LR 0.0005= [0m[0m
+experiment  : INFO     [32m[32mMeta-test test accuracy after sequential fine-tune (lr=0.000500) = 0.68[0m[0m
+experiment  : INFO     [32m[32mMeta-test forgetting measure after sequential fine-tune (lr=0.000500) = 0.35555555555555557[0m[0m
+experiment  : INFO     [32m[32mMeta-test learning accuracy after sequential fine-tune (lr=0.000500) = 1.0[0m[0m
+experiment  : INFO     [32m[32mMeta-test test accuracy after sequential fine-tune (lr=0.000500) = 0.68[0m[0m
+experiment  : INFO     [32m[32mMeta-test forgetting measure after sequential fine-tune (lr=0.000500) = 0.3555555555555555[0m[0m
+experiment  : INFO     [32m[32mMeta-test learning accuracy after sequential fine-tune (lr=0.000500) = 1.0[0m[0m
+experiment  : INFO     [32m[32mMeta-test test accuracy after sequential fine-tune (lr=0.000500) = 0.54[0m[0m
+experiment  : INFO     [32m[32mMeta-test forgetting measure after sequential fine-tune (lr=0.000500) = 0.5111111111111111[0m[0m
+experiment  : INFO     [32m[32mMeta-test learning accuracy after sequential fine-tune (lr=0.000500) = 1.0[0m[0m
+experiment  : INFO     [32m[32mFinal Max Result = 0.6333333333333334[0m[0m
+experiment  : INFO     [32m[32mFinal FM Result = 0.4074074074074074[0m[0m
+experiment  : INFO     [32m[32mFinal LA Result = 1.0[0m[0m
+experiment  : INFO     [32m[32mFinal results = {0: (0.6333333333333334, 0.0005)}[0m[0m
+experiment  : INFO     [32m[32mFinal FM results = {0: (0.4074074074074074, 0.08981004187394177, 1.0, 0.0, 0.0005)}[0m[0m
+FINAL RESULTS =  [(10, {0: (0.6333333333333334, 0.0005)})]
+FINAL FM RESULTS =  [(10, {0: (0.4074074074074074, 0.08981004187394177, 1.0, 0.0, 0.0005)})]
+experiment  : INFO     [32m[32mBEST LR 0.0005= [0m[0m
+experiment  : INFO     [32m[32mMeta-test test accuracy after sequential fine-tune (lr=0.000500) = 0.32[0m[0m
+experiment  : INFO     [32m[32mMeta-test forgetting measure after sequential fine-tune (lr=0.000500) = 0.6897959183673469[0m[0m
+experiment  : INFO     [32m[32mMeta-test learning accuracy after sequential fine-tune (lr=0.000500) = 0.996[0m[0m
+experiment  : INFO     [32m[32mMeta-test test accuracy after sequential fine-tune (lr=0.000500) = 0.3[0m[0m
+experiment  : INFO     [32m[32mMeta-test forgetting measure after sequential fine-tune (lr=0.000500) = 0.710204081632653[0m[0m
+experiment  : INFO     [32m[32mMeta-test learning accuracy after sequential fine-tune (lr=0.000500) = 0.996[0m[0m
+experiment  : INFO     [32m[32mMeta-test test accuracy after sequential fine-tune (lr=0.000500) = 0.496[0m[0m
+experiment  : INFO     [32m[32mMeta-test forgetting measure after sequential fine-tune (lr=0.000500) = 0.5142857142857142[0m[0m
+experiment  : INFO     [32m[32mMeta-test learning accuracy after sequential fine-tune (lr=0.000500) = 1.0[0m[0m
+experiment  : INFO     [32m[32mFinal Max Result = 0.37200000000000005[0m[0m
+experiment  : INFO     [32m[32mFinal FM Result = 0.638095238095238[0m[0m
+experiment  : INFO     [32m[32mFinal LA Result = 0.9973333333333333[0m[0m
+experiment  : INFO     [32m[32mFinal results = {0: (0.37200000000000005, 0.0005)}[0m[0m
+experiment  : INFO     [32m[32mFinal FM results = {0: (0.638095238095238, 0.10770664752661105, 0.9973333333333333, 0.0023094010767585054, 0.0005)}[0m[0m
+FINAL RESULTS =  [(10, {0: (0.6333333333333334, 0.0005)}), (50, {0: (0.37200000000000005, 0.0005)})]
+FINAL FM RESULTS =  [(10, {0: (0.4074074074074074, 0.08981004187394177, 1.0, 0.0, 0.0005)}), (50, {0: (0.638095238095238, 0.10770664752661105, 0.9973333333333333, 0.0023094010767585054, 0.0005)})]
+experiment  : INFO     [32m[32mBEST LR 0.0005= [0m[0m
+experiment  : INFO     [32m[32mMeta-test test accuracy after sequential fine-tune (lr=0.000500) = 0.24800000000000005[0m[0m
+experiment  : INFO     [32m[32mMeta-test forgetting measure after sequential fine-tune (lr=0.000500) = 0.7621621621621623[0m[0m
+experiment  : INFO     [32m[32mMeta-test learning accuracy after sequential fine-tune (lr=0.000500) = 1.0[0m[0m
+experiment  : INFO     [32m[32mMeta-test test accuracy after sequential fine-tune (lr=0.000500) = 0.2[0m[0m
+experiment  : INFO     [32m[32mMeta-test forgetting measure after sequential fine-tune (lr=0.000500) = 0.8108108108108107[0m[0m
+experiment  : INFO     [32m[32mMeta-test learning accuracy after sequential fine-tune (lr=0.000500) = 1.0[0m[0m
+experiment  : INFO     [32m[32mMeta-test test accuracy after sequential fine-tune (lr=0.000500) = 0.2[0m[0m
+experiment  : INFO     [32m[32mMeta-test forgetting measure after sequential fine-tune (lr=0.000500) = 0.8108108108108109[0m[0m
+experiment  : INFO     [32m[32mMeta-test learning accuracy after sequential fine-tune (lr=0.000500) = 1.0[0m[0m
+experiment  : INFO     [32m[32mFinal Max Result = 0.21600000000000005[0m[0m
+experiment  : INFO     [32m[32mFinal FM Result = 0.7945945945945946[0m[0m
+experiment  : INFO     [32m[32mFinal LA Result = 1.0[0m[0m
+experiment  : INFO     [32m[32mFinal results = {0: (0.21600000000000005, 0.0005)}[0m[0m
+experiment  : INFO     [32m[32mFinal FM results = {0: (0.7945945945945946, 0.028087310393008758, 1.0, 0.0, 0.0005)}[0m[0m
+FINAL RESULTS =  [(10, {0: (0.6333333333333334, 0.0005)}), (50, {0: (0.37200000000000005, 0.0005)}), (75, {0: (0.21600000000000005, 0.0005)})]
+FINAL FM RESULTS =  [(10, {0: (0.4074074074074074, 0.08981004187394177, 1.0, 0.0, 0.0005)}), (50, {0: (0.638095238095238, 0.10770664752661105, 0.9973333333333333, 0.0023094010767585054, 0.0005)}), (75, {0: (0.7945945945945946, 0.028087310393008758, 1.0, 0.0, 0.0005)})]
+experiment  : INFO     [32m[32mBEST LR 0.0005= [0m[0m
+experiment  : INFO     [32m[32mMeta-test test accuracy after sequential fine-tune (lr=0.000500) = 0.17400000000000002[0m[0m
+experiment  : INFO     [32m[32mMeta-test forgetting measure after sequential fine-tune (lr=0.000500) = 0.8343434343434344[0m[0m
+experiment  : INFO     [32m[32mMeta-test learning accuracy after sequential fine-tune (lr=0.000500) = 1.0[0m[0m
+experiment  : INFO     [32m[32mMeta-test test accuracy after sequential fine-tune (lr=0.000500) = 0.23800000000000002[0m[0m
+experiment  : INFO     [32m[32mMeta-test forgetting measure after sequential fine-tune (lr=0.000500) = 0.7696969696969695[0m[0m
+experiment  : INFO     [32m[32mMeta-test learning accuracy after sequential fine-tune (lr=0.000500) = 1.0[0m[0m
+experiment  : INFO     [32m[32mMeta-test test accuracy after sequential fine-tune (lr=0.000500) = 0.23399999999999999[0m[0m
+experiment  : INFO     [32m[32mMeta-test forgetting measure after sequential fine-tune (lr=0.000500) = 0.7737373737373737[0m[0m
+experiment  : INFO     [32m[32mMeta-test learning accuracy after sequential fine-tune (lr=0.000500) = 1.0[0m[0m
+experiment  : INFO     [32m[32mFinal Max Result = 0.21533333333333335[0m[0m
+experiment  : INFO     [32m[32mFinal FM Result = 0.7925925925925926[0m[0m
+experiment  : INFO     [32m[32mFinal LA Result = 1.0[0m[0m
+experiment  : INFO     [32m[32mFinal results = {0: (0.21533333333333335, 0.0005)}[0m[0m
+experiment  : INFO     [32m[32mFinal FM results = {0: (0.7925925925925926, 0.0362136825851819, 1.0, 0.0, 0.0005)}[0m[0m
+FINAL RESULTS =  [(10, {0: (0.6333333333333334, 0.0005)}), (50, {0: (0.37200000000000005, 0.0005)}), (75, {0: (0.21600000000000005, 0.0005)}), (100, {0: (0.21533333333333335, 0.0005)})]
+FINAL FM RESULTS =  [(10, {0: (0.4074074074074074, 0.08981004187394177, 1.0, 0.0, 0.0005)}), (50, {0: (0.638095238095238, 0.10770664752661105, 0.9973333333333333, 0.0023094010767585054, 0.0005)}), (75, {0: (0.7945945945945946, 0.028087310393008758, 1.0, 0.0, 0.0005)}), (100, {0: (0.7925925925925926, 0.0362136825851819, 1.0, 0.0, 0.0005)})]

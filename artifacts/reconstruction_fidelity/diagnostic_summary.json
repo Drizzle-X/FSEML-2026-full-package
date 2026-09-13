@@ -1,0 +1,100 @@
+{
+  "Scratch": {
+    "early_10_event_mean": {
+      "frozen_feature_cosine": 0.7125801086425781,
+      "independent_pseudo_accuracy": 0.0014999999664723873,
+      "label_preservation_rate": 0.0015768783335384443,
+      "pixel_mse": 0.028694345615804195,
+      "ssim": 0.7385296523571014
+    },
+    "event_correlation_feature_cosine_vs_lpr": 0.47158918621152157,
+    "event_correlation_feature_cosine_vs_pseudo_accuracy": 0.4888565226765982,
+    "events": 83,
+    "final_pseudo_prediction_entropy_bits": 5.219901828516207,
+    "final_pseudo_prediction_top1_share": 0.119,
+    "final_pseudo_prediction_top5_share": 0.435,
+    "final_unique_pseudo_predictions": 112,
+    "final_unique_real_predictions": 613,
+    "final_unique_true_labels": 617,
+    "first_event": {
+      "event_index": 1,
+      "frozen_feature_cosine": 0.6701770424842834,
+      "independent_pseudo_accuracy": 0.0,
+      "independent_real_accuracy": 0.9449999928474426,
+      "label_preservation_rate": 0.0,
+      "meta_iteration": 960,
+      "method": "Scratch",
+      "pixel_mse": 0.03710295632481575,
+      "sample_count": 200,
+      "ssim": 0.6375855207443237
+    },
+    "last_event": {
+      "event_index": 83,
+      "frozen_feature_cosine": 0.7810181975364685,
+      "independent_pseudo_accuracy": 0.004999999888241291,
+      "independent_real_accuracy": 0.949999988079071,
+      "label_preservation_rate": 0.005263157894736842,
+      "meta_iteration": 79680,
+      "method": "Scratch",
+      "pixel_mse": 0.02080577053129673,
+      "sample_count": 200,
+      "ssim": 0.8205596804618835
+    },
+    "late_10_event_mean": {
+      "frozen_feature_cosine": 0.7866843521595002,
+      "independent_pseudo_accuracy": 0.015999999549239873,
+      "label_preservation_rate": 0.0164029988854792,
+      "pixel_mse": 0.02035500165075064,
+      "ssim": 0.8241339385509491
+    }
+  },
+  "Warm-start": {
+    "early_10_event_mean": {
+      "frozen_feature_cosine": 0.6809140264987945,
+      "independent_pseudo_accuracy": 0.0,
+      "label_preservation_rate": 0.0,
+      "pixel_mse": 0.03353579565882683,
+      "ssim": 0.6813519239425659
+    },
+    "event_correlation_feature_cosine_vs_lpr": 0.4710324471064508,
+    "event_correlation_feature_cosine_vs_pseudo_accuracy": 0.48413598708163685,
+    "events": 83,
+    "final_pseudo_prediction_entropy_bits": 4.734254737827048,
+    "final_pseudo_prediction_top1_share": 0.161,
+    "final_pseudo_prediction_top5_share": 0.521,
+    "final_unique_pseudo_predictions": 87,
+    "final_unique_real_predictions": 613,
+    "final_unique_true_labels": 617,
+    "first_event": {
+      "event_index": 1,
+      "frozen_feature_cosine": 0.6759118437767029,
+      "independent_pseudo_accuracy": 0.0,
+      "independent_real_accuracy": 0.9449999928474426,
+      "label_preservation_rate": 0.0,
+      "meta_iteration": 960,
+      "method": "Warm-start",
+      "pixel_mse": 0.04182039573788643,
+      "sample_count": 200,
+      "ssim": 0.5806991457939148
+    },
+    "last_event": {
+      "event_index": 83,
+      "frozen_feature_cosine": 0.7535725235939026,
+      "independent_pseudo_accuracy": 0.009999999776482582,
+      "independent_real_accuracy": 0.949999988079071,
+      "label_preservation_rate": 0.010526315789473684,
+      "meta_iteration": 79680,
+      "method": "Warm-start",
+      "pixel_mse": 0.023136066272854805,
+      "sample_count": 200,
+      "ssim": 0.7995395660400391
+    },
+    "late_10_event_mean": {
+      "frozen_feature_cosine": 0.7653834640979766,
+      "independent_pseudo_accuracy": 0.009999999776482582,
+      "label_preservation_rate": 0.010556165242175671,
+      "pixel_mse": 0.02250574715435505,
+      "ssim": 0.803279983997345
+    }
+  }
+}

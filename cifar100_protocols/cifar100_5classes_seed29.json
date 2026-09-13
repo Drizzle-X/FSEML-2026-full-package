@@ -1,0 +1,347 @@
+{
+  "class_order": [
+    73,
+    8,
+    10,
+    7,
+    19,
+    71,
+    92,
+    25,
+    38,
+    12,
+    57,
+    52,
+    77,
+    5,
+    41,
+    98,
+    70,
+    33,
+    84,
+    55,
+    63,
+    90,
+    94,
+    56,
+    9,
+    30,
+    61,
+    72,
+    81,
+    60,
+    68,
+    80,
+    62,
+    74,
+    21,
+    82,
+    88,
+    45,
+    91,
+    51,
+    76,
+    97,
+    42,
+    37,
+    93,
+    48,
+    16,
+    53,
+    49,
+    4,
+    35,
+    47,
+    18,
+    14,
+    0,
+    43,
+    29,
+    44,
+    86,
+    6,
+    28,
+    59,
+    17,
+    54,
+    89,
+    65,
+    1,
+    66,
+    50,
+    79,
+    31,
+    87,
+    22,
+    13,
+    26,
+    46,
+    3,
+    95,
+    11,
+    32,
+    67,
+    58,
+    39,
+    15,
+    2,
+    36,
+    64,
+    23,
+    78,
+    20,
+    69,
+    27,
+    75,
+    83,
+    99,
+    24,
+    96,
+    40,
+    34,
+    85
+  ],
+  "classes_per_task": 5,
+  "dataset": "CIFAR100",
+  "meta_train_fraction": 0.6,
+  "model_image_size": 28,
+  "model_normalization_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "model_normalization_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "num_classes": 100,
+  "num_meta_test_tasks": 8,
+  "num_meta_train_tasks": 12,
+  "num_tasks": 20,
+  "official_test_samples_per_class": 100,
+  "official_train_samples_per_class": 500,
+  "seed": 29,
+  "tasks": [
+    {
+      "class_ids": [
+        73,
+        8,
+        10,
+        7,
+        19
+      ],
+      "split": "meta_train",
+      "task_id": 0
+    },
+    {
+      "class_ids": [
+        71,
+        92,
+        25,
+        38,
+        12
+      ],
+      "split": "meta_train",
+      "task_id": 1
+    },
+    {
+      "class_ids": [
+        57,
+        52,
+        77,
+        5,
+        41
+      ],
+      "split": "meta_train",
+      "task_id": 2
+    },
+    {
+      "class_ids": [
+        98,
+        70,
+        33,
+        84,
+        55
+      ],
+      "split": "meta_train",
+      "task_id": 3
+    },
+    {
+      "class_ids": [
+        63,
+        90,
+        94,
+        56,
+        9
+      ],
+      "split": "meta_train",
+      "task_id": 4
+    },
+    {
+      "class_ids": [
+        30,
+        61,
+        72,
+        81,
+        60
+      ],
+      "split": "meta_train",
+      "task_id": 5
+    },
+    {
+      "class_ids": [
+        68,
+        80,
+        62,
+        74,
+        21
+      ],
+      "split": "meta_train",
+      "task_id": 6
+    },
+    {
+      "class_ids": [
+        82,
+        88,
+        45,
+        91,
+        51
+      ],
+      "split": "meta_train",
+      "task_id": 7
+    },
+    {
+      "class_ids": [
+        76,
+        97,
+        42,
+        37,
+        93
+      ],
+      "split": "meta_train",
+      "task_id": 8
+    },
+    {
+      "class_ids": [
+        48,
+        16,
+        53,
+        49,
+        4
+      ],
+      "split": "meta_train",
+      "task_id": 9
+    },
+    {
+      "class_ids": [
+        35,
+        47,
+        18,
+        14,
+        0
+      ],
+      "split": "meta_train",
+      "task_id": 10
+    },
+    {
+      "class_ids": [
+        43,
+        29,
+        44,
+        86,
+        6
+      ],
+      "split": "meta_train",
+      "task_id": 11
+    },
+    {
+      "class_ids": [
+        28,
+        59,
+        17,
+        54,
+        89
+      ],
+      "split": "meta_test",
+      "task_id": 12
+    },
+    {
+      "class_ids": [
+        65,
+        1,
+        66,
+        50,
+        79
+      ],
+      "split": "meta_test",
+      "task_id": 13
+    },
+    {
+      "class_ids": [
+        31,
+        87,
+        22,
+        13,
+        26
+      ],
+      "split": "meta_test",
+      "task_id": 14
+    },
+    {
+      "class_ids": [
+        46,
+        3,
+        95,
+        11,
+        32
+      ],
+      "split": "meta_test",
+      "task_id": 15
+    },
+    {
+      "class_ids": [
+        67,
+        58,
+        39,
+        15,
+        2
+      ],
+      "split": "meta_test",
+      "task_id": 16
+    },
+    {
+      "class_ids": [
+        36,
+        64,
+        23,
+        78,
+        20
+      ],
+      "split": "meta_test",
+      "task_id": 17
+    },
+    {
+      "class_ids": [
+        69,
+        27,
+        75,
+        83,
+        99
+      ],
+      "split": "meta_test",
+      "task_id": 18
+    },
+    {
+      "class_ids": [
+        24,
+        96,
+        40,
+        34,
+        85
+      ],
+      "split": "meta_test",
+      "task_id": 19
+    }
+  ]
+}

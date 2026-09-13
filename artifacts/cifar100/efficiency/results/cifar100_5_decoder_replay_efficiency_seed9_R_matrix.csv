@@ -1,0 +1,9 @@
+after_task,evaluation_mode,loss_class_scope,prediction_class_scope,eval_task_12,eval_task_13,eval_task_14,eval_task_15,eval_task_16,eval_task_17,eval_task_18,eval_task_19
+12,legacy-cumulative,seen,task,0.78,,,,,,,
+13,legacy-cumulative,seen,task,0.808,0.822,,,,,,
+14,legacy-cumulative,seen,task,0.816,0.822,0.888,,,,,
+15,legacy-cumulative,seen,task,0.794,0.816,0.88,0.758,,,,
+16,legacy-cumulative,seen,task,0.798,0.83,0.904,0.776,0.86,,,
+17,legacy-cumulative,seen,task,0.804,0.82,0.902,0.786,0.846,0.898,,
+18,legacy-cumulative,seen,task,0.784,0.82,0.892,0.77,0.852,0.894,0.69,
+19,legacy-cumulative,seen,task,0.796,0.822,0.906,0.786,0.862,0.908,0.688,0.806

@@ -1,0 +1,21 @@
+{
+  "phase": "validation",
+  "selected_meta_iteration": 24000,
+  "selected_inner_lr": 0.005,
+  "best": {
+    "inner_lr": 0.005,
+    "matrix": [
+      [
+        0.5547153024911032,
+        NaN
+      ],
+      [
+        0.4928825622775801,
+        0.5068888888888889
+      ]
+    ],
+    "final_ACC": 0.4998857255832345,
+    "learning_ACC": 0.5308020956899961,
+    "forgetting": 0.06183274021352314
+  }
+}

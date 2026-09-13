@@ -1,0 +1,2 @@
+# CORe50 uses the base project's PyTorch, torchvision, numpy and Pillow stack.
+# No additional Python dependency is required by the official metadata loader.

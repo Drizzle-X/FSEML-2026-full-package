@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated FSEML paper and this software package."
+title: "FSEML: A Continuous Task Self-adaptive Optimization Method with High Autonomy"
+type: software
+authors:
+  - name: "FSEML contributors"
+version: "2026-09-08"
+date-released: 2026-09-08
+license: MIT
+repository-code: "https://github.com/OWNER/REPOSITORY"
+abstract: "Code, protocols, provenance records, and validation tools for reproducing the FSEML manuscript. Replace the repository URL and add the author list and paper DOI before archival release."

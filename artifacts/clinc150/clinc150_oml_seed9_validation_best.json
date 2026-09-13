@@ -1,0 +1,144 @@
+{
+  "best": {
+    "final_ACC": 0.8200000000000002,
+    "forgetting": 0.01200000000000001,
+    "learning_ACC": 0.8300000000000001,
+    "matrix": [
+      [
+        0.81,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ],
+      [
+        0.8,
+        0.9,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ],
+      [
+        0.8,
+        0.9,
+        0.63,
+        NaN,
+        NaN,
+        NaN
+      ],
+      [
+        0.77,
+        0.89,
+        0.61,
+        0.86,
+        NaN,
+        NaN
+      ],
+      [
+        0.76,
+        0.89,
+        0.6,
+        0.85,
+        0.88,
+        NaN
+      ],
+      [
+        0.77,
+        0.89,
+        0.62,
+        0.87,
+        0.87,
+        0.9
+      ]
+    ],
+    "online_lr": 0.02,
+    "phase": "validation",
+    "prediction_class_scope": "task",
+    "task_events": [
+      {
+        "final_ACC": 0.81,
+        "forgetting": 0.0,
+        "intents": [
+          "order_checks",
+          "bill_due",
+          "transactions",
+          "balance",
+          "pay_bill"
+        ],
+        "learning_ACC": 0.81,
+        "task": 0
+      },
+      {
+        "final_ACC": 0.8500000000000001,
+        "forgetting": 0.010000000000000009,
+        "intents": [
+          "freeze_account",
+          "transfer",
+          "spending_history",
+          "routing",
+          "interest_rate"
+        ],
+        "learning_ACC": 0.855,
+        "task": 1
+      },
+      {
+        "final_ACC": 0.7766666666666667,
+        "forgetting": 0.0050000000000000044,
+        "intents": [
+          "pin_change",
+          "report_fraud",
+          "account_blocked",
+          "bill_balance",
+          "min_payment"
+        ],
+        "learning_ACC": 0.7799999999999999,
+        "task": 2
+      },
+      {
+        "final_ACC": 0.7825,
+        "forgetting": 0.023333333333333355,
+        "intents": [
+          "apr",
+          "replacement_card_duration",
+          "credit_limit_change",
+          "redeem_rewards",
+          "credit_limit"
+        ],
+        "learning_ACC": 0.7999999999999999,
+        "task": 3
+      },
+      {
+        "final_ACC": 0.796,
+        "forgetting": 0.025000000000000022,
+        "intents": [
+          "new_card",
+          "international_fees",
+          "improve_credit_score",
+          "credit_score",
+          "application_status"
+        ],
+        "learning_ACC": 0.8160000000000001,
+        "task": 4
+      },
+      {
+        "final_ACC": 0.8200000000000002,
+        "forgetting": 0.01200000000000001,
+        "intents": [
+          "card_declined",
+          "rewards_balance",
+          "damaged_card",
+          "expiration_date",
+          "report_lost_card"
+        ],
+        "learning_ACC": 0.8300000000000001,
+        "task": 5
+      }
+    ]
+  },
+  "phase": "validation",
+  "selected_checkpoint": "clinc150_heldout_oml_10k/clinc150_oml_seed9_best.pt",
+  "selected_meta_iteration": 6000,
+  "selected_online_lr": 0.02
+}

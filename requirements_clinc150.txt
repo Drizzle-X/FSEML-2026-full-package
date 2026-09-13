@@ -1,0 +1,18 @@
+# CLINC150-specific dependencies. This file is intentionally self-contained
+# and does not install PyTorch; requirements.txt supplies the tested version.
+sentence-transformers==6.0.0
+transformers==5.15.1
+tokenizers==0.22.2
+safetensors==0.8.0
+huggingface-hub==1.28.0
+datasets==5.0.1
+pyarrow==25.0.1
+dill==0.4.1
+multiprocess==0.70.19
+fsspec[http]==2025.5.1
+xxhash==4.0.1
+httpx==0.28.1
+filelock
+packaging>=20.0
+regex
+typer

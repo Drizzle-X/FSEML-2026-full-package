@@ -1,0 +1,5 @@
+after_task,evaluation_mode,loss_class_scope,prediction_class_scope,eval_task_6,eval_task_7,eval_task_8,eval_task_9
+6,legacy-cumulative,seen,task,0.543,,,
+7,legacy-cumulative,seen,task,0.543,0.582,,
+8,legacy-cumulative,seen,task,0.557,0.586,0.7,
+9,legacy-cumulative,seen,task,0.549,0.586,0.702,0.545

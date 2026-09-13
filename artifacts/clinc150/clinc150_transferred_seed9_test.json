@@ -1,0 +1,157 @@
+{
+  "adaptation_replay": false,
+  "arguments": {
+    "adaptation_epochs": 1,
+    "checkpoint": "clinc150_heldout_transferred_10k/clinc150_transferred_seed9_best.pt",
+    "cpu": false,
+    "eval_batch_size": 256,
+    "features": "../ANML-master_20260824/clinc150_features/clinc150_minilm_l6_v2.pt",
+    "online_batch_size": 32,
+    "output": "clinc150_heldout_transferred_10k/clinc150_transferred_seed9_test.json",
+    "phase": "test",
+    "protocol": "clinc150_protocols/domain_holdout_6_2_2_seed9.json",
+    "seed": 9,
+    "selection": "clinc150_heldout_transferred_10k/clinc150_transferred_seed9_validation_best.json",
+    "workers": 4
+  },
+  "checkpoint": "clinc150_heldout_transferred_10k/clinc150_transferred_seed9_best.pt",
+  "checkpoint_meta_iteration": 10000,
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "final_ACC": 0.8222222222222223,
+  "forgetting": 0.018666666666666675,
+  "learning_ACC": 0.827777777777778,
+  "matrix": [
+    [
+      0.6333333333333333,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    [
+      0.6666666666666666,
+      0.8533333333333334,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    [
+      0.6733333333333333,
+      0.8533333333333334,
+      0.8333333333333334,
+      NaN,
+      NaN,
+      NaN
+    ],
+    [
+      0.6733333333333333,
+      0.82,
+      0.84,
+      0.9866666666666667,
+      NaN,
+      NaN
+    ],
+    [
+      0.68,
+      0.8133333333333334,
+      0.8066666666666666,
+      0.9933333333333333,
+      0.9533333333333334,
+      NaN
+    ],
+    [
+      0.6733333333333333,
+      0.8,
+      0.8066666666666666,
+      0.9933333333333333,
+      0.9533333333333334,
+      0.7066666666666667
+    ]
+  ],
+  "online_lr": 0.02,
+  "phase": "test",
+  "prediction_class_scope": "task",
+  "selection": "clinc150_heldout_transferred_10k/clinc150_transferred_seed9_validation_best.json",
+  "task_events": [
+    {
+      "final_ACC": 0.6333333333333333,
+      "forgetting": 0.0,
+      "intents": [
+        "shopping_list",
+        "calendar",
+        "reminder_update",
+        "todo_list",
+        "what_song"
+      ],
+      "learning_ACC": 0.6333333333333333,
+      "task": 0
+    },
+    {
+      "final_ACC": 0.76,
+      "forgetting": -0.033333333333333326,
+      "intents": [
+        "reminder",
+        "calendar_update",
+        "order",
+        "update_playlist",
+        "todo_list_update"
+      ],
+      "learning_ACC": 0.7433333333333334,
+      "task": 1
+    },
+    {
+      "final_ACC": 0.7866666666666667,
+      "forgetting": -0.003333333333333355,
+      "intents": [
+        "smart_home",
+        "play_music",
+        "order_status",
+        "next_song",
+        "shopping_list_update"
+      ],
+      "learning_ACC": 0.7733333333333334,
+      "task": 2
+    },
+    {
+      "final_ACC": 0.83,
+      "forgetting": 0.008888888888888946,
+      "intents": [
+        "international_visa",
+        "translate",
+        "travel_alert",
+        "lost_luggage",
+        "timezone"
+      ],
+      "learning_ACC": 0.8266666666666668,
+      "task": 3
+    },
+    {
+      "final_ACC": 0.8493333333333333,
+      "forgetting": 0.015000000000000013,
+      "intents": [
+        "carry_on",
+        "plug_type",
+        "car_rental",
+        "travel_suggestion",
+        "book_hotel"
+      ],
+      "learning_ACC": 0.8520000000000001,
+      "task": 4
+    },
+    {
+      "final_ACC": 0.8222222222222223,
+      "forgetting": 0.018666666666666675,
+      "intents": [
+        "exchange_rate",
+        "book_flight",
+        "vaccines",
+        "travel_notification",
+        "flight_status"
+      ],
+      "learning_ACC": 0.827777777777778,
+      "task": 5
+    }
+  ]
+}

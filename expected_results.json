@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "manuscript_results": [
+    {"id":"table-i-fseml","table":"I","dataset":"Omniglot-1","method":"FSEML","metrics":{"ACC":{"value":77.62,"std":0.30,"unit":"percentage_points"},"FM":{"value":3.65,"std":0.98,"unit":"percentage_points"},"LA":{"value":79.30,"std":1.04,"unit":"percentage_points"}}},
+    {"id":"table-i-fseml-er","table":"I","dataset":"Omniglot-1","method":"FSEML-ER","metrics":{"ACC":{"value":82.35,"std":1.55,"unit":"percentage_points"},"FM":{"value":2.95,"std":1.01,"unit":"percentage_points"},"LA":{"value":82.21,"std":1.46,"unit":"percentage_points"}}},
+    {"id":"table-ii-fseml-c5","table":"II","dataset":"CIFAR100-5","method":"FSEML","metrics":{"ACC":{"value":77.21,"std":0.77,"unit":"percentage_points"},"FM":{"value":2.21,"std":0.15,"unit":"percentage_points"},"LA":{"value":80.01,"std":0.96,"unit":"percentage_points"}}},
+    {"id":"table-ii-fseml-c10","table":"II","dataset":"CIFAR100-10","method":"FSEML","metrics":{"ACC":{"value":70.60,"std":0.77,"unit":"percentage_points"},"FM":{"value":1.39,"std":0.30,"unit":"percentage_points"},"LA":{"value":71.88,"std":0.62,"unit":"percentage_points"}}},
+    {"id":"table-ii-fseml-c20","table":"II","dataset":"CIFAR100-20","method":"FSEML","metrics":{"ACC":{"value":57.32,"std":0.47,"unit":"percentage_points"},"FM":{"value":0.36,"std":0.35,"unit":"percentage_points"},"LA":{"value":58.57,"std":0.45,"unit":"percentage_points"}}},
+    {"id":"table-ii-fseml-er-c5","table":"II","dataset":"CIFAR100-5","method":"FSEML-ER","metrics":{"ACC":{"value":84.37,"std":0.32,"unit":"percentage_points"},"FM":{"value":1.98,"std":0.34,"unit":"percentage_points"},"LA":{"value":85.88,"std":0.21,"unit":"percentage_points"}}},
+    {"id":"table-ii-fseml-er-c10","table":"II","dataset":"CIFAR100-10","method":"FSEML-ER","metrics":{"ACC":{"value":72.38,"std":0.32,"unit":"percentage_points"},"FM":{"value":1.04,"std":0.75,"unit":"percentage_points"},"LA":{"value":74.34,"std":0.20,"unit":"percentage_points"}}},
+    {"id":"table-ii-fseml-er-c20","table":"II","dataset":"CIFAR100-20","method":"FSEML-ER","metrics":{"ACC":{"value":60.40,"std":0.36,"unit":"percentage_points"},"FM":{"value":0.21,"std":0.28,"unit":"percentage_points"},"LA":{"value":63.77,"std":0.50,"unit":"percentage_points"}}},
+    {"id":"table-iii-core50-fseml","table":"III","dataset":"CORe50 NICv2-79","method":"FSEML","metrics":{"ACC":{"value":54.68},"FM":{"value":4.72},"LA":{"value":55.88}}},
+    {"id":"table-iii-core50-fseml-er","table":"III","dataset":"CORe50 NICv2-79","method":"FSEML-ER","metrics":{"ACC":{"value":56.98},"FM":{"value":4.19},"LA":{"value":57.32}}},
+    {"id":"table-iii-clinc150-fseml","table":"III","dataset":"CLINC150","method":"FSEML","metrics":{"ACC":{"value":66.89},"FM":{"value":0.53},"LA":{"value":67.22}}},
+    {"id":"table-iii-clinc150-fseml-er","table":"III","dataset":"CLINC150","method":"FSEML-ER","metrics":{"ACC":{"value":71.56},"FM":{"value":0.53},"LA":{"value":71.89}}}
+  ]
+}
